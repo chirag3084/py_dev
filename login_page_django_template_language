@@ -1,0 +1,15 @@
+<form class="windowlogscreen-content" method="POST">
+{% csrf_token %}
+
+                <input type="text" placeholder="E-mail" name="username">
+                <br>
+             
+                <input type="password" placeholder="password" name="password">
+                <br>
+    
+                <button style="margin: 20px;" type="submit"><a href='home'>login</button></a>
+            </div>
+    
+    </div>
+    </form>
+   
